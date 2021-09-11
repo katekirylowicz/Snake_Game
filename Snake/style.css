@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+.color1 {color: #121107;}
+.color2 {color: #123936;}
+.color3 {color: #8f9d0a;}
+.color4 {color: #e5d359;}
+.color5 {color: #f6eda5;}
+*/
+
+body {
+    background-color: #f6eda5;
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+    /*font-weight: lighter;*/
+    height: 100vh;
+    width: 100vw;
+}
+
+header.board {
+    align-items: center;
+    background-color: #8f9d0a;
+    color: #121107;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+h1.scoreBoard {
+    margin: 0px 30px;
+}
+
+div.livePoints {
+    display: flex;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin: 0px 30px;
+}
+
+
+
+span.points {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+
+main {
+    border: 1px solid black;
+    height: 80vh;
+    position: relative;
+    width: 100vw;
+}
+
+.plants {
+    color: #123936;
+    height: 10px;
+    line-height: 10px;
+    position: absolute;
+    width: 10px;
+}
+
+.plants::after {
+    content: '☙';
+    display: block;
+    font-size: 2rem;
+    margin-left: -4px;
+    margin-top: 0px;
+}
+
+
+.snake {
+    background-color: #123936;
+    border: 2px solid transparent;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    box-sizing: border-box;
+    color: #123936;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+}
+
+/*.popup {
+    background: #121107;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    color: whitesmoke;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+footer {
+    align-items: center;
+    background-color: #8f9d0a;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+}
+
+footer>button {
+    background-color: #123936;
+    border: 1px solid;
+    border-color: rgb(7, 87, 87);
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    color: #8f9d0a;
+    margin: 0 50px;
+    padding: 10px 12px;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+}
+
+footer>button:hover {
+    background-color: #8f9d0a;
+
+    color: #123936;
+
+}
