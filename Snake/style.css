@@ -15,7 +15,6 @@
 body {
     background-color: #f6eda5;
     font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
-    /*font-weight: lighter;*/
     height: 100vh;
     width: 100vw;
 }
@@ -23,7 +22,8 @@ body {
 header.board {
     align-items: center;
     background-color: #8f9d0a;
-    color: #121107;
+    box-shadow: 13px 6px 25px 4px rgba(28, 90, 85, 1);
+    color: #123936;
     display: flex;
     height: 10vh;
     justify-content: space-between;
@@ -49,7 +49,6 @@ span.points {
 
 
 main {
-    border: 1px solid black;
     height: 80vh;
     position: relative;
     width: 100vw;
@@ -103,6 +102,7 @@ main {
 footer {
     align-items: center;
     background-color: #8f9d0a;
+    box-shadow: 4px 1px 25px 4px rgba(28, 90, 85, 1);
     display: flex;
     height: 10vh;
     justify-content: center;
@@ -112,11 +112,11 @@ footer>button {
     background-color: #123936;
     border: 1px solid;
     border-color: rgb(7, 87, 87);
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     color: #8f9d0a;
     margin: 0 50px;
     padding: 10px 12px;
