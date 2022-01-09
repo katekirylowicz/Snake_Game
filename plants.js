@@ -10,7 +10,7 @@ const setGrid = (w, h) => {
   boardWidth = w;
   boardHeight = h;
 }
-
+//randomize new plant coords
 const getNewPlant = () => [
   Math.floor(Math.random() * boardWidth),
   Math.floor(Math.random() * boardHeight),

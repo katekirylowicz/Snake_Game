@@ -4,7 +4,7 @@ import plants from './plants.js';
 const ENTER = 13;
 const ESC = 27;
 
-let gameSpeed = 200;
+let gameSpeed = 150;
 let gameInterval = 0;
 let score = 0;
 let live = 3;
@@ -24,7 +24,7 @@ const endGame = () => {
     render();
     clearInterval(gameInterval);
     gameInterval = 0;
-    gameSpeed = 200;
+    gameSpeed = 150;
 };
 
 const renderLives = () => {
@@ -57,9 +57,9 @@ const processGameFrame = () => {
 
             live = 3;
             score = 0;
-            gameSpeed = gameSpeed + 5;
+            gameSpeed = gameSpeed + 20;
             snake.reset();
-            console.log(`The speed of the snake drops. Now is: ${gameSpeed} `);
+            console.log(`The speed of the snake drops. Now it's: ${gameSpeed} `);
             return;
         }
 
@@ -74,8 +74,8 @@ const processGameFrame = () => {
         plants.remove(snake.getHeadCoords());
         score++;
         renderScore();
-        gameSpeed = gameSpeed - 10;
-        console.log(`Speed of the snake increasses. Now is: ${gameSpeed} `);
+        gameSpeed = gameSpeed - 20;
+        console.log(`Speed of the snake increasses. Now it's: ${gameSpeed} `);
         return;
     }
 

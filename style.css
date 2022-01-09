@@ -86,19 +86,7 @@ main {
     width: 10px;
 }
 
-/*.popup {
-    background: #121107;
-    width: 100px;
-    height: 100px;
-    position: fixed;
-    color: whitesmoke;
-    top: 100px;
-    left: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-*/
+
 footer {
     align-items: center;
     background-color: #8f9d0a;
@@ -119,7 +107,7 @@ footer>button {
     -o-border-radius: 10px;
     color: #8f9d0a;
     margin: 0 50px;
-    padding: 10px 12px;
+    padding: 10px 10px;
     transition: 0.2s linear;
     -webkit-transition: 0.2s linear;
     -moz-transition: 0.2s linear;
@@ -129,7 +117,5 @@ footer>button {
 
 footer>button:hover {
     background-color: #8f9d0a;
-
     color: #123936;
-
 }
