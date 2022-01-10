@@ -2,6 +2,8 @@
 ### Desktop, laptop version.
 hardware requirements: keyboard;
 
+online on: https://katekirylowicz.github.io/Snake_Game/
+
 
 Inspired Nokia 3310 Snake game. 
 
